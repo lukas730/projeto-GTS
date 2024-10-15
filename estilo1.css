@@ -1,0 +1,171 @@
+*{
+   margin: 0;
+}
+body { 
+    background-color: #828272;
+
+ }
+ .containerTopo {
+   border: 5px solid #333333;
+    width: 1200px;
+    height: 500px;
+    background-image: url(Mar.jpg);
+    margin: 0 auto ;
+    background-repeat: no-repeat;
+ }
+ 
+ .imagemLogotipo{
+   position: relative;
+   top: 20px;
+   left: 40px;
+
+   .pal{
+      color: #ffffff;
+   }
+ }
+.menu{
+   margin: 0 auto;
+   width: 500px;
+   height: 40px;
+   background-image: url(images.jpeg);
+   top: -80px;
+   left: 325px;
+   border: 2px solid #ffffff;
+   border-radius: 20px;
+   text-align: center;
+   line-height: 40px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+
+.menuSeparator{
+   font-family: Arial ;
+   color: #ffffff;
+   font-weight: bold;
+   font-size: 20px;
+   text-decoration: none;
+
+}
+.link{
+   font-family: Arial;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+
+.containerPaginaTitulo{
+   width: 1200px;
+   height: 100px;
+   color: #ffffff;
+   background-color: #828272;
+   text-align: center;
+   line-height: 100px;
+   margin: 0 auto;
+}
+.paginaTítulo{
+   font-size: 35px;
+   color:#ffffff;
+}
+.containerfilme{
+   width: 100xp;
+   height: 30px;
+   background-color: #ffffff;
+   margin: 0 auto;
+}
+ .filme1{
+   border: 5px solid #ff0000;
+   float: left;
+   position: relative;
+   top: 50px;
+   left: 50px;
+ }
+ .filme2{
+   position: relative;
+   top: 50px;  
+   left: 90px;
+   margin: 0;
+ }
+
+ .filme3{
+   width: 750px;
+   position: relative;
+   top: 50px;
+   left: 90px;
+ }
+ .filmeA{
+   width: 900px;
+   height: 550px;
+   background-color: #6e655b;
+   margin: 0 auto;
+}
+.filmeB{
+   border: 5px solid #ffff00;
+   float: right;
+   position: relative;
+   top: 50px;
+   left: -35px;
+}
+.filmeC{
+   position: relative;
+   color: #ffffff;
+   top: 50px;  
+   left: 40px;
+   margin: 0;
+}
+.filmeD{
+   width: 600px;
+   position: relative;
+   color:  #ffffff;
+   top: 50px;
+   left: 100px;
+}
+.conteinerPremios{
+   width: 900px;
+   height: 400px;
+   background-image: url(jp_fundoSelva.jpg);
+   margin: 0 auto;
+   text-align: center;
+   background-attachment: fixed;
+}
+.Premios{
+   position: relative;
+   top: 50px;
+   margin: 0 auto;
+   color: #ffffff;
+}
+.tabelaPremios{
+   position: relative;
+   top: 80px;
+   width: 400px;
+   height: 200px;
+   margin: 0 auto;
+}
+.thpremios{
+   background-color: #333333;
+   color:#ffffff;
+   font-weight: bold;
+   font-size: 20px;
+}
+.tr{
+   text-align: center;
+}
+
+.tr:nth-child(even){
+   background-color: #999999;
+}
+.tr:nth-child(odd){
+   background-color: #ddd000;
+}
+.containerodape{
+   width: 1200px;
+   height: 500px;
+   background-image: url(logo-veksus-track-todas-marcas-de-carro.png);
+   text-align: center;
+   margin: 0 auto;
+   color: #ffffff;
+   top: 25px;
+}
