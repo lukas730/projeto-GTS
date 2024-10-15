@@ -3,6 +3,8 @@
 }
 body { 
     background-color: #828272;
+    background-image: url(logo-veksus-track-todas-marcas-de-carro.png);
+    background-repeat: repeat;
 
  }
  .containerTopo {
@@ -163,7 +165,7 @@ body {
 .containerodape{
    width: 1200px;
    height: 500px;
-   background-image: url(logo-veksus-track-todas-marcas-de-carro.png);
+   background-image: url();
    text-align: center;
    margin: 0 auto;
    color: #ffffff;
