@@ -1,7 +1,7 @@
 /* Estilos gerais */
 body {
-    background-color: #2c2c2c;
-    color: #f1f1f1;
+    background-color: #1a1a1a; /* Fundo mais escuro */
+    color: #f1f1f1; /* Cor do texto */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,13 +9,13 @@ body {
 
 /* Estilo do topo */
 .containerTopo {
-    background-color: #333;
+    background-color: #000; /* Preto */
     padding: 20px;
     text-align: center;
 }
 
 .containerPaginaTitulo {
-    color: #fff;
+    color: #ff7f00; /* Laranja */
     font-size: 2.5em;
 }
 
@@ -26,14 +26,14 @@ body {
 }
 
 .menu .link {
-    color: #d1d1d1;
+    color: #ff7f00; /* Laranja */
     text-decoration: none;
     font-size: 1.2em;
     margin: 0 15px;
 }
 
 .menuSeparator {
-    color: #f1f1f1;
+    color: #f1f1f1; /* Cinza claro */
 }
 
 /* Estilo da lista de carros econômicos */
@@ -43,7 +43,7 @@ body {
 }
 
 .carrosEconomicos h2 {
-    color: #f9f9f9;
+    color: #ff7f00; /* Laranja */
     font-size: 2em;
 }
 
@@ -53,12 +53,12 @@ body {
 }
 
 .carrosEconomicos ul li {
-    background-color: #444;
+    background-color: #333; /* Cinza escuro */
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
     font-size: 1.2em;
-    color: #fff;
+    color: #fff; /* Branco */
 }
 
 /* Centralização da imagem */
@@ -73,11 +73,12 @@ body {
 
 /* Rodapé */
 .containerRodape {
-    background-color: #333;
-    color: #f1f1f1;
+    background-color: #000; /* Preto */
+    color: #f1f1f1; /* Cinza claro */
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
